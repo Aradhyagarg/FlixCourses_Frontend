@@ -42,7 +42,7 @@ const Subscribe = ({ user }) => {
       const openPopUp = () => {
         const options = {
           key,
-          name: 'Course Bundler',
+          name: 'FlixCourses',
           description: 'Get access to all premium content',
           image: logo,
           subscription_id: subscriptionId,
@@ -53,7 +53,7 @@ const Subscribe = ({ user }) => {
             contact: '',
           },
           notes: {
-            address: 'Koushik Dutta Office',
+            address: 'Aradhya Garg Office',
           },
           theme: {
             // color: '#3399cc',
@@ -92,12 +92,12 @@ const Subscribe = ({ user }) => {
             borderRadius: '8px 8px 0 0',
           }}
         >
-          <Text color="Black" children={`Pro Pack - $2.99`} />
+          <Text color="Black" children={`Pro Pack - $299`} />
         </Box>
         <Box p="4">
           <VStack textAlign={'center'} px="8" mt={'4'} spacing={'8'}>
             <Text children={`Join Pro Pack and get access to all content`} />
-            <Heading size="md" children={'$2.99 Only'} />
+            <Heading size="md" children={'$299 Only'} />
           </VStack>
           <Button
             my="8"
