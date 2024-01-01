@@ -36,7 +36,7 @@ const Header = ({ isAuthenticated = false, user }) => {
       <ColorModeSwitcher />
       <Button
         onClick={onOpen}
-        colorScheme={'yellow'}
+        colorScheme={'purple'}
         width="12"
         height={'12'}
         rounded="full"
@@ -73,7 +73,7 @@ const Header = ({ isAuthenticated = false, user }) => {
                     <VStack>
                       <HStack>
                         <Link onClick={onClose} to="/profile">
-                          <Button variant={'ghost'} colorScheme={'yellow'}>
+                          <Button variant={'ghost'} colorScheme={'purple'}>
                             Profile
                           </Button>
                         </Link>
