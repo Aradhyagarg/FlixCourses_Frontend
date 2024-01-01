@@ -36,7 +36,7 @@ const Header = ({ isAuthenticated = false, user }) => {
       <ColorModeSwitcher />
       <Button
         onClick={onOpen}
-        color={'purple.400'}
+        colorScheme={'purple'}
         width="12"
         height={'12'}
         rounded="full"
